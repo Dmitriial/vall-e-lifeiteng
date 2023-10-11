@@ -31,5 +31,4 @@ RUN set -x \
     && : "setup vall-e library" \
     && git clone --branch example https://github.com/Dmitriial/vall-e-lifeiteng.git /opt/valle \
     && cd /opt/valle \
-    && git checkout 93c7d5923d4eb5e468a65bf1d0a5df7dfbe643d8 \
-    pip install -e .
+    && pip install -e .
